@@ -1,0 +1,28 @@
+# Build output
+/out/
+/runtime/
+/LaundryKita.exe
+
+# Packaged application artifacts
+/app/*.jar
+/app/*.cfg
+/app/*.xml
+/app/*.bak
+
+# Local database configuration
+database.properties
+
+# Agent tooling
+/.agents/
+/.claude/
+/skills-lock.json
+
+# Machine-specific IDE metadata
+/.idea/LaundryKita.iml
+/.idea/libraries/jrt_fs.xml
+/.idea/libraries/laundrykita_0_1_0.xml
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.log
